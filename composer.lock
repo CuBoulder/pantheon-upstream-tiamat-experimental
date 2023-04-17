@@ -913,12 +913,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CuBoulder/tiamat10-profile.git",
-                "reference": "3acbbc7959e12a76c8b91edc4e1bd869c74b1cd0"
+                "reference": "231118e5226a2cbb4ddc8b06b2e42423150805ab"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CuBoulder/tiamat10-profile/zipball/3acbbc7959e12a76c8b91edc4e1bd869c74b1cd0",
-                "reference": "3acbbc7959e12a76c8b91edc4e1bd869c74b1cd0",
+                "url": "https://api.github.com/repos/CuBoulder/tiamat10-profile/zipball/231118e5226a2cbb4ddc8b06b2e42423150805ab",
+                "reference": "231118e5226a2cbb4ddc8b06b2e42423150805ab",
                 "shasum": ""
             },
             "default-branch": true,
@@ -932,7 +932,7 @@
                 "issues": "https://github.com/CuBoulder/tiamat10-profile/issues",
                 "source": "https://github.com/CuBoulder/tiamat10-profile/tree/main"
             },
-            "time": "2023-04-17T20:20:08+00:00"
+            "time": "2023-04-17T22:19:24+00:00"
         },
         {
             "name": "cu-boulder/ucb_admin_menus",
