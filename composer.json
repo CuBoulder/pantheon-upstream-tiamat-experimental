@@ -16,7 +16,7 @@
     "require": {
         "composer/installers": "^2.1",
         "cu-boulder/boulder_d9_base": "dev-main",
-        "cu-boulder/boulder_d9_profile": "dev-main",
+        "cu-boulder/boulder_profile": "dev-main",
         "cu-boulder/ucb_admin_menus": "dev-main",
         "cu-boulder/ucb_bootstrap_layouts": "dev-main",
         "cu-boulder/ucb_campus_news": "dev-main",

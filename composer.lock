@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6fa8f9676c2b78bd59f58dd70e6146aa",
+    "content-hash": "e0b3dd5201d9bab9bb51af54085660d9",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -908,17 +908,17 @@
             "time": "2023-04-14T23:11:44+00:00"
         },
         {
-            "name": "cu-boulder/boulder_d9_profile",
+            "name": "cu-boulder/boulder_profile",
             "version": "dev-main",
             "source": {
                 "type": "git",
-                "url": "https://github.com/CuBoulder/tiamat-profile.git",
-                "reference": "d0eb36bf9e3fd61331e9501730a4628efdc90e25"
+                "url": "https://github.com/CuBoulder/tiamat10-profile.git",
+                "reference": "3acbbc7959e12a76c8b91edc4e1bd869c74b1cd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CuBoulder/tiamat-profile/zipball/d0eb36bf9e3fd61331e9501730a4628efdc90e25",
-                "reference": "d0eb36bf9e3fd61331e9501730a4628efdc90e25",
+                "url": "https://api.github.com/repos/CuBoulder/tiamat10-profile/zipball/3acbbc7959e12a76c8b91edc4e1bd869c74b1cd0",
+                "reference": "3acbbc7959e12a76c8b91edc4e1bd869c74b1cd0",
                 "shasum": ""
             },
             "default-branch": true,
@@ -927,12 +927,12 @@
             "license": [
                 "GPL-2.0-or-later"
             ],
-            "description": "Drupal 9 base install profile for CU Boulder",
+            "description": "Drupal 10 base install profile for CU Boulder",
             "support": {
-                "issues": "https://github.com/CuBoulder/tiamat-profile/issues",
-                "source": "https://github.com/CuBoulder/tiamat-profile/tree/main"
+                "issues": "https://github.com/CuBoulder/tiamat10-profile/issues",
+                "source": "https://github.com/CuBoulder/tiamat10-profile/tree/main"
             },
-            "time": "2023-04-17T17:12:13+00:00"
+            "time": "2023-04-17T20:20:08+00:00"
         },
         {
             "name": "cu-boulder/ucb_admin_menus",
@@ -15338,7 +15338,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "cu-boulder/boulder_d9_base": 20,
-        "cu-boulder/boulder_d9_profile": 20,
+        "cu-boulder/boulder_profile": 20,
         "cu-boulder/ucb_admin_menus": 20,
         "cu-boulder/ucb_bootstrap_layouts": 20,
         "cu-boulder/ucb_campus_news": 20,
