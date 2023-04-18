@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e0b3dd5201d9bab9bb51af54085660d9",
+    "content-hash": "00f1b4702833baee314910e91ce71ea5",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -913,12 +913,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CuBoulder/tiamat10-profile.git",
-                "reference": "231118e5226a2cbb4ddc8b06b2e42423150805ab"
+                "reference": "7c4ba08bc7207c4d3259b792283a01c15eaf7c09"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CuBoulder/tiamat10-profile/zipball/231118e5226a2cbb4ddc8b06b2e42423150805ab",
-                "reference": "231118e5226a2cbb4ddc8b06b2e42423150805ab",
+                "url": "https://api.github.com/repos/CuBoulder/tiamat10-profile/zipball/7c4ba08bc7207c4d3259b792283a01c15eaf7c09",
+                "reference": "7c4ba08bc7207c4d3259b792283a01c15eaf7c09",
                 "shasum": ""
             },
             "default-branch": true,
@@ -932,7 +932,7 @@
                 "issues": "https://github.com/CuBoulder/tiamat10-profile/issues",
                 "source": "https://github.com/CuBoulder/tiamat10-profile/tree/main"
             },
-            "time": "2023-04-17T22:19:24+00:00"
+            "time": "2023-04-18T21:05:55+00:00"
         },
         {
             "name": "cu-boulder/ucb_admin_menus",
@@ -1979,57 +1979,6 @@
             "homepage": "https://www.drupal.org/project/better_social_sharing_buttons",
             "support": {
                 "source": "https://git.drupalcode.org/project/better_social_sharing_buttons"
-            }
-        },
-        {
-            "name": "drupal/color",
-            "version": "1.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/color.git",
-                "reference": "1.0.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/color-1.0.3.zip",
-                "reference": "1.0.3",
-                "shasum": "b88ab527bed65b67eec555ee4b17e633c19f3194"
-            },
-            "require": {
-                "drupal/core": "^9.4 || ^10"
-            },
-            "require-dev": {
-                "drupal/bartik": "^1.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "1.0.3",
-                    "datestamp": "1663234622",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "andypost",
-                    "homepage": "https://www.drupal.org/user/118908"
-                },
-                {
-                    "name": "kostyashupenko",
-                    "homepage": "https://www.drupal.org/user/3281537"
-                }
-            ],
-            "description": "Allows users to change the color scheme of compatible themes",
-            "homepage": "https://www.drupal.org/project/color",
-            "support": {
-                "source": "https://git.drupalcode.org/project/color"
             }
         },
         {
@@ -4057,28 +4006,27 @@
             }
         },
         {
-            "name": "drupal/rdf",
-            "version": "2.1.1",
+            "name": "drupal/redirect",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
-                "url": "https://git.drupalcode.org/project/rdf.git",
-                "reference": "2.1.1"
+                "url": "https://git.drupalcode.org/project/redirect.git",
+                "reference": "8.x-1.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/rdf-2.1.1.zip",
-                "reference": "2.1.1",
-                "shasum": "9c897d1313abdabbe80806d79643faffaa0b2466"
+                "url": "https://ftp.drupal.org/files/projects/redirect-8.x-1.8.zip",
+                "reference": "8.x-1.8",
+                "shasum": "a7a440423434472ff7115ae69df01553f763f839"
             },
             "require": {
-                "drupal/core": "^9.4 || ^10.0",
-                "easyrdf/easyrdf": "^0.9 || ^1.0"
+                "drupal/core": "^9.2 || ^10"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "2.1.1",
-                    "datestamp": "1666340902",
+                    "version": "8.x-1.8",
+                    "datestamp": "1661806955",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4091,46 +4039,22 @@
             ],
             "authors": [
                 {
-                    "name": "Arto",
-                    "homepage": "https://www.drupal.org/user/26089"
+                    "name": "Berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
                 },
                 {
-                    "name": "bbrala",
-                    "homepage": "https://www.drupal.org/user/3366066"
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/user/53892"
                 },
                 {
-                    "name": "bhuga",
-                    "homepage": "https://www.drupal.org/user/186547"
-                },
-                {
-                    "name": "febbraro",
-                    "homepage": "https://www.drupal.org/user/43670"
-                },
-                {
-                    "name": "jmiccolis",
-                    "homepage": "https://www.drupal.org/user/31731"
-                },
-                {
-                    "name": "linclark",
-                    "homepage": "https://www.drupal.org/user/396253"
-                },
-                {
-                    "name": "miglius",
-                    "homepage": "https://www.drupal.org/user/18741"
-                },
-                {
-                    "name": "scor",
-                    "homepage": "https://www.drupal.org/user/52142"
-                },
-                {
-                    "name": "smustgrave",
-                    "homepage": "https://www.drupal.org/user/3252890"
+                    "name": "pifagor",
+                    "homepage": "https://www.drupal.org/user/2375692"
                 }
             ],
-            "description": "Enriches your content with metadata to let other applications (e.g. search engines, aggregators) better understand its relationships and attributes",
-            "homepage": "https://www.drupal.org/project/rdf",
+            "description": "Allows users to redirect from old URLs to new URLs.",
+            "homepage": "https://www.drupal.org/project/redirect",
             "support": {
-                "source": "https://git.drupalcode.org/project/rdf"
+                "source": "https://git.drupalcode.org/project/redirect"
             }
         },
         {
@@ -4766,81 +4690,6 @@
                 "source": "https://github.com/e0ipso/shaper/tree/1.2.4"
             },
             "time": "2021-05-19T09:42:57+00:00"
-        },
-        {
-            "name": "easyrdf/easyrdf",
-            "version": "1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/easyrdf/easyrdf.git",
-                "reference": "c7b0a9dbcb211eb7de03ee99ff5b52d17f2a8e64"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/easyrdf/easyrdf/zipball/c7b0a9dbcb211eb7de03ee99ff5b52d17f2a8e64",
-                "reference": "c7b0a9dbcb211eb7de03ee99ff5b52d17f2a8e64",
-                "shasum": ""
-            },
-            "require": {
-                "ext-dom": "*",
-                "ext-mbstring": "*",
-                "ext-pcre": "*",
-                "ext-xmlreader": "*",
-                "lib-libxml": "*",
-                "php": ">=7.1.0"
-            },
-            "require-dev": {
-                "code-lts/doctum": "^5",
-                "ml/json-ld": "~1.0",
-                "phpunit/phpunit": "^7",
-                "semsol/arc2": "^2.4",
-                "squizlabs/php_codesniffer": "3.*",
-                "zendframework/zend-http": "~2.3"
-            },
-            "suggest": {
-                "ml/json-ld": "~1.0",
-                "semsol/arc2": "~2.2"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "EasyRdf\\": "lib"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Nicholas Humfrey",
-                    "email": "njh@aelius.com",
-                    "homepage": "http://www.aelius.com/njh/",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Alexey Zakhlestin",
-                    "email": "indeyets@gmail.com",
-                    "homepage": "http://indeyets.ru/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "EasyRdf is a PHP library designed to make it easy to consume and produce RDF.",
-            "homepage": "http://www.easyrdf.org/",
-            "keywords": [
-                "Linked Data",
-                "RDF",
-                "Semantic Web",
-                "Turtle",
-                "rdfa",
-                "sparql"
-            ],
-            "support": {
-                "forum": "http://groups.google.com/group/easyrdf/",
-                "issues": "http://github.com/easyrdf/easyrdf/issues",
-                "source": "https://github.com/easyrdf/easyrdf/tree/1.1.1"
-            },
-            "time": "2020-12-02T08:47:31+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -12088,16 +11937,16 @@
         },
         {
             "name": "drupal/coder",
-            "version": "8.3.17",
+            "version": "8.3.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pfrenssen/coder.git",
-                "reference": "1c4662337418ab88c9ddf40348f0638e35d49182"
+                "reference": "d5911f812b69ca3bda5524899bdd06b3b4e687ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pfrenssen/coder/zipball/1c4662337418ab88c9ddf40348f0638e35d49182",
-                "reference": "1c4662337418ab88c9ddf40348f0638e35d49182",
+                "url": "https://api.github.com/repos/pfrenssen/coder/zipball/d5911f812b69ca3bda5524899bdd06b3b4e687ff",
+                "reference": "d5911f812b69ca3bda5524899bdd06b3b4e687ff",
                 "shasum": ""
             },
             "require": {
@@ -12135,7 +11984,7 @@
                 "issues": "https://www.drupal.org/project/issues/coder",
                 "source": "https://www.drupal.org/project/coder"
             },
-            "time": "2023-02-19T21:05:01+00:00"
+            "time": "2023-04-18T12:07:59+00:00"
         },
         {
             "name": "drupal/core-dev",
@@ -12254,16 +12103,16 @@
         },
         {
             "name": "mglaman/phpstan-drupal",
-            "version": "1.1.29",
+            "version": "1.1.30",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mglaman/phpstan-drupal.git",
-                "reference": "e6f6191c53b159013fcbd186d7f85511f3f96ff8"
+                "reference": "21b62499bb1233667f4d2bc6ce11db73500734fe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/e6f6191c53b159013fcbd186d7f85511f3f96ff8",
-                "reference": "e6f6191c53b159013fcbd186d7f85511f3f96ff8",
+                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/21b62499bb1233667f4d2bc6ce11db73500734fe",
+                "reference": "21b62499bb1233667f4d2bc6ce11db73500734fe",
                 "shasum": ""
             },
             "require": {
@@ -12338,7 +12187,7 @@
             "description": "Drupal extension and rules for PHPStan",
             "support": {
                 "issues": "https://github.com/mglaman/phpstan-drupal/issues",
-                "source": "https://github.com/mglaman/phpstan-drupal/tree/1.1.29"
+                "source": "https://github.com/mglaman/phpstan-drupal/tree/1.1.30"
             },
             "funding": [
                 {
@@ -12354,7 +12203,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-02-08T21:44:03+00:00"
+            "time": "2023-04-07T13:36:19+00:00"
         },
         {
             "name": "mikey179/vfsstream",
@@ -12815,16 +12664,16 @@
         },
         {
             "name": "phpspec/prophecy-phpunit",
-            "version": "v2.0.1",
+            "version": "v2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy-phpunit.git",
-                "reference": "2d7a9df55f257d2cba9b1d0c0963a54960657177"
+                "reference": "9f26c224a2fa335f33e6666cc078fbf388255e87"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy-phpunit/zipball/2d7a9df55f257d2cba9b1d0c0963a54960657177",
-                "reference": "2d7a9df55f257d2cba9b1d0c0963a54960657177",
+                "url": "https://api.github.com/repos/phpspec/prophecy-phpunit/zipball/9f26c224a2fa335f33e6666cc078fbf388255e87",
+                "reference": "9f26c224a2fa335f33e6666cc078fbf388255e87",
                 "shasum": ""
             },
             "require": {
@@ -12861,22 +12710,22 @@
             ],
             "support": {
                 "issues": "https://github.com/phpspec/prophecy-phpunit/issues",
-                "source": "https://github.com/phpspec/prophecy-phpunit/tree/v2.0.1"
+                "source": "https://github.com/phpspec/prophecy-phpunit/tree/v2.0.2"
             },
-            "time": "2020-07-09T08:33:42+00:00"
+            "time": "2023-04-18T11:58:05+00:00"
         },
         {
             "name": "phpstan/extension-installer",
-            "version": "1.2.0",
+            "version": "1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/extension-installer.git",
-                "reference": "f06dbb052ddc394e7896fcd1cfcd533f9f6ace40"
+                "reference": "f5e02d40f277d28513001976f444d9ff1dc15e9a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/extension-installer/zipball/f06dbb052ddc394e7896fcd1cfcd533f9f6ace40",
-                "reference": "f06dbb052ddc394e7896fcd1cfcd533f9f6ace40",
+                "url": "https://api.github.com/repos/phpstan/extension-installer/zipball/f5e02d40f277d28513001976f444d9ff1dc15e9a",
+                "reference": "f5e02d40f277d28513001976f444d9ff1dc15e9a",
                 "shasum": ""
             },
             "require": {
@@ -12891,7 +12740,12 @@
             },
             "type": "composer-plugin",
             "extra": {
-                "class": "PHPStan\\ExtensionInstaller\\Plugin"
+                "class": "PHPStan\\ExtensionInstaller\\Plugin",
+                "phpstan/extension-installer": {
+                    "ignore": [
+                        "phpstan/phpstan-phpunit"
+                    ]
+                }
             },
             "autoload": {
                 "psr-4": {
@@ -12905,9 +12759,9 @@
             "description": "Composer plugin for automatic installation of PHPStan extensions",
             "support": {
                 "issues": "https://github.com/phpstan/extension-installer/issues",
-                "source": "https://github.com/phpstan/extension-installer/tree/1.2.0"
+                "source": "https://github.com/phpstan/extension-installer/tree/1.3.0"
             },
-            "time": "2022-10-17T12:59:16+00:00"
+            "time": "2023-04-18T13:08:02+00:00"
         },
         {
             "name": "phpstan/phpdoc-parser",
