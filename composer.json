@@ -43,7 +43,7 @@
                 },
                 "license": "MIT"
             }
-        ,
+        }
     ],
     "require": {
         "pantheon-upstreams/upstream-configuration": "dev-master",
