@@ -7,10 +7,6 @@
             "url": "https://packages.drupal.org/8"
         },
         {
-            "type": "vcs",
-            "url": "https://github.com/tirazel/private-composer-test"
-        },
-        {
             "type": "package",
             "package": {
                 "name": "codemirror/codemirror",
@@ -218,7 +214,6 @@
     "require": {
         "codemirror/codemirror": "*",
         "composer/installers": "v2.2.0",
-        "tirazel/private-composer-test": "dev-main",
         "cu-boulder/boulder_base": "dev-main",
         "cu-boulder/boulder_profile": "dev-main",
         "cu-boulder/express_admin": "dev-main",
