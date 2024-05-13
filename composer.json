@@ -13,20 +13,8 @@
             "url": "upstream-configuration/locked"
         },
         {
-            "type": "package",
-            "package": {
-                "name": "codemirror/codemirror",
-                "version": "5.65.3",
-                "type": "drupal-library",
-                "extra": {
-                    "installer-name": "codemirror"
-                },
-                "dist": {
-                    "url": "https://github.com/components/codemirror/archive/refs/tags/5.65.3.zip",
-                    "type": "zip"
-                },
-                "license": "MIT"
-            }
+            "type": "composer",
+            "url": "https://asset-packagist.org"
         },
         {
             "type": "package",
@@ -218,10 +206,12 @@
         }
     ],
     "require": {
-        "pantheon-upstreams/upstream-configuration": "dev-master",
         "composer/installers": "^2.1",
         "cweagans/composer-patches": "^1.7",
-        "drush/drush": "^12"
+        "drush/drush": "^12",
+        "npm-asset/codemirror": "5.65.3",
+        "oomphinc/composer-installers-extender": "^2.0",
+        "pantheon-upstreams/upstream-configuration": "dev-master"
     },
     "require-dev": {
         "drupal/core-dev": "~10.2.0"
@@ -251,9 +241,13 @@
         "patchLevel": {
             "drupal/core": "-p2"
         },
+        "installer-types": ["npm-asset"],
         "installer-paths": {
             "web/core": ["type:drupal-core"],
-            "web/libraries/{$name}": ["type:drupal-library"],
+            "web/libraries/{$name}": [
+                "type:drupal-library",
+                "type:npm-asset"
+            ],
             "web/modules/contrib/{$name}": ["type:drupal-module"],
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
@@ -285,7 +279,8 @@
             "phpstan/extension-installer": true,
             "drupal/core-project-message": true,
             "php-http/discovery": true,
-            "pantheon-systems/upstream-management": true
+            "pantheon-systems/upstream-management": true,
+            "oomphinc/composer-installers-extender": true
         }
     },
     "scripts": {

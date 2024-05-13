@@ -7,20 +7,8 @@
             "url": "https://packages.drupal.org/8"
         },
         {
-            "type": "package",
-            "package": {
-                "name": "codemirror/codemirror",
-                "version": "5.65.3",
-                "type": "drupal-library",
-                "extra": {
-                    "installer-name": "codemirror"
-                },
-                "dist": {
-                    "url": "https://github.com/components/codemirror/archive/refs/tags/5.65.3.zip",
-                    "type": "zip"
-                },
-                "license": "MIT"
-            }
+            "type": "composer",
+            "url": "https://asset-packagist.org"
         },
         {
             "type": "package",
@@ -212,7 +200,7 @@
         }
     ],
     "require": {
-        "codemirror/codemirror": "*",
+        "npm-asset/codemirror": "5.65.3",
         "composer/installers": "v2.2.0",
         "cu-boulder/boulder_base": "dev-main",
         "cu-boulder/boulder_profile": "dev-main",
