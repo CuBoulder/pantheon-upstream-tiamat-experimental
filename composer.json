@@ -13,10 +13,6 @@
             "url": "upstream-configuration/locked"
         },
         {
-            "type": "vcs",
-            "url": "https://github.com/tirazel/private-composer-test"
-        },
-        {
             "type": "package",
             "package": {
                 "name": "codemirror/codemirror",
