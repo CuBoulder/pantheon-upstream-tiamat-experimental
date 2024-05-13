@@ -3,16 +3,32 @@
     "description": "Install Tiamat with Composer on Pantheon.",
     "type": "project",
     "license": "GPL-2.0-or-later",
-    "repositories": {
-        "Drupal": {
+    "repositories": [
+        {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         },
-        "Pantheon Upstream": {
+        {
             "type": "path",
             "url": "upstream-configuration/locked"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "codemirror/codemirror",
+                "version": "5.65.3",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "codemirror"
+                },
+                "dist": {
+                    "url": "https://github.com/components/codemirror/archive/refs/tags/5.65.3.zip",
+                    "type": "zip"
+                },
+                "license": "MIT"
+            }
         }
-    },
+    ],
     "require": {
         "pantheon-upstreams/upstream-configuration": "dev-master",
         "composer/installers": "^1.9",
