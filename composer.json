@@ -31,7 +31,7 @@
     ],
     "require": {
         "pantheon-upstreams/upstream-configuration": "dev-master",
-        "composer/installers": "^1.9",
+        "composer/installers": "^2.1",
         "cweagans/composer-patches": "^1.7",
         "drush/drush": "^12"
     },
