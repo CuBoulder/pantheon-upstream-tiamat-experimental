@@ -27,7 +27,23 @@
                 },
                 "license": "MIT"
             }
-        }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "jquery/inputmask",
+                "version": "5.0.7",
+                "type": "drupal-library",
+                "extra": {
+                    "installer-name": "jquery.inputmask"
+                },
+                "dist": {
+                    "url": "https://github.com/RobinHerbots/jquery.inputmask/archive/refs/tags/5.0.7.zip",
+                    "type": "zip"
+                },
+                "license": "MIT"
+            }
+        ,
     ],
     "require": {
         "pantheon-upstreams/upstream-configuration": "dev-master",
