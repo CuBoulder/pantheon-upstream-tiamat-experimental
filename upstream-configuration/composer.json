@@ -219,7 +219,6 @@
     "require": {
         "codemirror/codemirror": "*",
         "composer/installers": "^2.1",
-        "tirazel/private-composer-test": "dev-main",
         "cu-boulder/boulder_base": "dev-main",
         "cu-boulder/boulder_profile": "dev-main",
         "cu-boulder/express_admin": "dev-main",
