@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cea4c238cddde51ffafed01c9b904e6c",
+    "content-hash": "ec6b394d79b97d9b0e46438063aa28bc",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -6773,15 +6773,6 @@
             "time": "2024-03-05T20:51:40+00:00"
         },
         {
-            "name": "northernco/ckeditor5-anchor-drupal",
-            "version": "0.5.0",
-            "dist": {
-                "type": "tar",
-                "url": "https://registry.npmjs.org/@northernco/ckeditor5-anchor-drupal/-/ckeditor5-anchor-drupal-0.5.0.tgz"
-            },
-            "type": "drupal-library"
-        },
-        {
             "name": "npm-asset/codemirror",
             "version": "5.65.3",
             "dist": {
@@ -6857,6 +6848,18 @@
             ]
         },
         {
+            "name": "npm-asset/northernco--ckeditor5-anchor-drupal",
+            "version": "0.5.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/@northernco/ckeditor5-anchor-drupal/-/ckeditor5-anchor-drupal-0.5.0.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
             "name": "npm-asset/popperjs--core",
             "version": "2.11.6",
             "dist": {
@@ -6893,6 +6896,18 @@
             ]
         },
         {
+            "name": "npm-asset/tabbyjs",
+            "version": "12.0.3",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/tabbyjs/-/tabbyjs-12.0.3.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
             "name": "npm-asset/timepicker",
             "version": "1.14.0",
             "dist": {
@@ -6901,6 +6916,21 @@
             },
             "require": {
                 "npm-asset/jquery": ">=3.5.1,<4.0.0"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/tippy.js",
+            "version": "6.3.7",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/tippy.js/-/tippy.js-6.3.7.tgz"
+            },
+            "require": {
+                "npm-asset/popperjs--core": ">=2.9.0,<3.0.0"
             },
             "type": "npm-asset",
             "license": [
@@ -11730,36 +11760,6 @@
                 }
             ],
             "time": "2024-04-28T10:28:08+00:00"
-        },
-        {
-            "name": "tabby/tabby",
-            "version": "12.0.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/cferdinandi/tabby/archive/refs/tags/v12.0.3.zip"
-            },
-            "type": "drupal-library",
-            "extra": {
-                "installer-name": "tabby"
-            },
-            "license": [
-                "MIT"
-            ]
-        },
-        {
-            "name": "tippyjs/tippyjs",
-            "version": "6.3.7",
-            "dist": {
-                "type": "tar",
-                "url": "https://registry.npmjs.org/tippy.js/-/tippy.js-6.3.7.tgz"
-            },
-            "type": "drupal-library",
-            "extra": {
-                "installer-name": "tippyjs"
-            },
-            "license": [
-                "MIT"
-            ]
         },
         {
             "name": "twig/intl-extra",

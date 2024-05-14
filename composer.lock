@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7e6ae4d162819568b49dd7a7bb2ca70a",
+    "content-hash": "d797c497da71a4d91c55d4b9b53c6d27",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -6773,15 +6773,6 @@
             "time": "2024-03-05T20:51:40+00:00"
         },
         {
-            "name": "northernco/ckeditor5-anchor-drupal",
-            "version": "0.5.0",
-            "dist": {
-                "type": "tar",
-                "url": "https://registry.npmjs.org/@northernco/ckeditor5-anchor-drupal/-/ckeditor5-anchor-drupal-0.5.0.tgz"
-            },
-            "type": "drupal-library"
-        },
-        {
             "name": "npm-asset/codemirror",
             "version": "5.65.3",
             "dist": {
@@ -6857,6 +6848,18 @@
             ]
         },
         {
+            "name": "npm-asset/northernco--ckeditor5-anchor-drupal",
+            "version": "0.5.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/@northernco/ckeditor5-anchor-drupal/-/ckeditor5-anchor-drupal-0.5.0.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
             "name": "npm-asset/popperjs--core",
             "version": "2.11.6",
             "dist": {
@@ -6893,6 +6896,18 @@
             ]
         },
         {
+            "name": "npm-asset/tabbyjs",
+            "version": "12.0.3",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/tabbyjs/-/tabbyjs-12.0.3.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
             "name": "npm-asset/timepicker",
             "version": "1.14.0",
             "dist": {
@@ -6901,6 +6916,21 @@
             },
             "require": {
                 "npm-asset/jquery": ">=3.5.1,<4.0.0"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/tippy.js",
+            "version": "6.3.7",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/tippy.js/-/tippy.js-6.3.7.tgz"
+            },
+            "require": {
+                "npm-asset/popperjs--core": ">=2.9.0,<3.0.0"
             },
             "type": "npm-asset",
             "license": [
@@ -7064,7 +7094,7 @@
             "dist": {
                 "type": "path",
                 "url": "upstream-configuration/locked",
-                "reference": "a5ee3f63404469702841acc2c86e8c2da6310607"
+                "reference": "9990a98aa396f8ce82636020a080b806168d13b5"
             },
             "require": {
                 "asm89/stack-cors": "v2.2.0",
@@ -7176,16 +7206,18 @@
                 "masterminds/html5": "2.8.1",
                 "mck89/peast": "v1.15.4",
                 "nikic/php-parser": "v5.0.2",
-                "northernco/ckeditor5-anchor-drupal": "^0.5.0",
                 "npm-asset/codemirror": "5.65.3",
                 "npm-asset/inputmask": "5.0.7",
                 "npm-asset/intl-tel-input": "17.0.19",
                 "npm-asset/jquery-text-counter": "0.9.0",
                 "npm-asset/jquery.rateit": "1.1.5",
+                "npm-asset/northernco--ckeditor5-anchor-drupal": "0.5.0",
                 "npm-asset/popperjs--core": "2.11.6",
                 "npm-asset/progress-tracker": "2.0.7",
                 "npm-asset/select2": "4.0.13",
+                "npm-asset/tabbyjs": "12.0.3",
                 "npm-asset/timepicker": "1.14.0",
+                "npm-asset/tippy.js": "6.3.7",
                 "pantheon-systems/drupal-integrations": "10.0.1",
                 "pantheon-systems/upstream-management": "1.0.1",
                 "pear/archive_tar": "1.4.14",
@@ -7252,8 +7284,6 @@
                 "symfony/var-dumper": "v6.4.7",
                 "symfony/var-exporter": "v6.4.7",
                 "symfony/yaml": "v6.4.7",
-                "tabby/tabby": "*",
-                "tippyjs/tippyjs": "*",
                 "twig/intl-extra": "v3.9.0",
                 "twig/twig": "v3.8.0",
                 "webflo/drupal-finder": "1.3.0",
@@ -11993,36 +12023,6 @@
                 }
             ],
             "time": "2024-04-28T10:28:08+00:00"
-        },
-        {
-            "name": "tabby/tabby",
-            "version": "12.0.3",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/cferdinandi/tabby/archive/refs/tags/v12.0.3.zip"
-            },
-            "type": "drupal-library",
-            "extra": {
-                "installer-name": "tabby"
-            },
-            "license": [
-                "MIT"
-            ]
-        },
-        {
-            "name": "tippyjs/tippyjs",
-            "version": "6.3.7",
-            "dist": {
-                "type": "tar",
-                "url": "https://registry.npmjs.org/tippy.js/-/tippy.js-6.3.7.tgz"
-            },
-            "type": "drupal-library",
-            "extra": {
-                "installer-name": "tippyjs"
-            },
-            "license": [
-                "MIT"
-            ]
         },
         {
             "name": "twig/intl-extra",
