@@ -13,38 +13,6 @@
         {
             "type": "package",
             "package": {
-                "name": "popperjs/popperjs",
-                "version": "2.11.6",
-                "type": "drupal-library",
-                "extra": {
-                    "installer-name": "popperjs"
-                },
-                "dist": {
-                    "url": "https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz",
-                    "type": "tar"
-                },
-                "license": "MIT"
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "progress-tracker/progress-tracker",
-                "version": "2.0.7",
-                "type": "drupal-library",
-                "extra": {
-                    "installer-name": "progress-tracker"
-                },
-                "dist": {
-                    "url": "https://github.com/NigelOToole/progress-tracker/archive/refs/tags/2.0.7.zip",
-                    "type": "zip"
-                },
-                "license": "MIT"
-            }
-        },
-        {
-            "type": "package",
-            "package": {
                 "name": "signature_pad/signature_pad",
                 "version": "2.3.0",
                 "type": "drupal-library",
@@ -112,6 +80,9 @@
         "npm-asset/select2": "4.0.13",
         "npm-asset/jquery-text-counter": "0.9.0",
         "npm-asset/timepicker": "1.14.0",
+        "npm-asset/popperjs--core": "2.11.6",
+        "npm-asset/progress-tracker": "2.0.7",
+        "bower-asset/signature-pad": "2.3.0",
         "composer/installers": "^2.1",
         "cu-boulder/boulder_base": "dev-main",
         "cu-boulder/boulder_profile": "dev-main",
@@ -177,9 +148,6 @@
         "northernco/ckeditor5-anchor-drupal": "^0.5.0",
         "pantheon-systems/drupal-integrations": "^10",
         "pantheon-systems/upstream-management": "^1.0",
-        "popperjs/popperjs": "*",
-        "progress-tracker/progress-tracker": "*",
-        "signature_pad/signature_pad": "*",
         "simplesamlphp/simplesamlphp": "^2.1",
         "tabby/tabby": "*",
         "tippyjs/tippyjs": "*",

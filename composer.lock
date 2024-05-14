@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c1c57c9fe3bf765b24ff4766c3fe815",
+    "content-hash": "7e6ae4d162819568b49dd7a7bb2ca70a",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -61,6 +61,21 @@
                 "source": "https://github.com/asm89/stack-cors/tree/v2.2.0"
             },
             "time": "2023-11-14T13:51:46+00:00"
+        },
+        {
+            "name": "bower-asset/signature-pad",
+            "version": "v2.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thread-pond/signature-pad.git",
+                "reference": "948948496bd0e7e5724aa95090f2619bd1708c9d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thread-pond/signature-pad/zipball/948948496bd0e7e5724aa95090f2619bd1708c9d",
+                "reference": "948948496bd0e7e5724aa95090f2619bd1708c9d"
+            },
+            "type": "bower-asset"
         },
         {
             "name": "chi-teck/drupal-code-generator",
@@ -6842,6 +6857,30 @@
             ]
         },
         {
+            "name": "npm-asset/popperjs--core",
+            "version": "2.11.6",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/progress-tracker",
+            "version": "2.0.7",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/progress-tracker/-/progress-tracker-2.0.7.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
             "name": "npm-asset/select2",
             "version": "4.0.13",
             "dist": {
@@ -7025,10 +7064,11 @@
             "dist": {
                 "type": "path",
                 "url": "upstream-configuration/locked",
-                "reference": "3e68af9308b2f1d423a301e4659c0cde8185c305"
+                "reference": "a5ee3f63404469702841acc2c86e8c2da6310607"
             },
             "require": {
                 "asm89/stack-cors": "v2.2.0",
+                "bower-asset/signature-pad": "v2.3.0",
                 "chi-teck/drupal-code-generator": "3.5.0",
                 "composer/installers": "v2.2.0",
                 "composer/semver": "3.4.0",
@@ -7142,6 +7182,8 @@
                 "npm-asset/intl-tel-input": "17.0.19",
                 "npm-asset/jquery-text-counter": "0.9.0",
                 "npm-asset/jquery.rateit": "1.1.5",
+                "npm-asset/popperjs--core": "2.11.6",
+                "npm-asset/progress-tracker": "2.0.7",
                 "npm-asset/select2": "4.0.13",
                 "npm-asset/timepicker": "1.14.0",
                 "pantheon-systems/drupal-integrations": "10.0.1",
@@ -7154,8 +7196,6 @@
                 "phootwork/lang": "v3.2.2",
                 "phpmailer/phpmailer": "v6.9.1",
                 "phpowermove/docblock": "v4.0",
-                "popperjs/popperjs": "*",
-                "progress-tracker/progress-tracker": "*",
                 "psr/cache": "3.0.0",
                 "psr/container": "2.0.2",
                 "psr/event-dispatcher": "1.0.0",
@@ -7167,7 +7207,6 @@
                 "ralouphie/getallheaders": "3.0.3",
                 "robrichards/xmlseclibs": "3.1.1",
                 "sebastian/diff": "4.0.6",
-                "signature_pad/signature_pad": "*",
                 "simplesamlphp/assert": "v1.1.7",
                 "simplesamlphp/composer-module-installer": "v1.3.4",
                 "simplesamlphp/saml2": "v4.6.12",
@@ -7700,36 +7739,6 @@
                 "source": "https://github.com/phpowermove/docblock/tree/v4.0"
             },
             "time": "2021-09-22T16:57:06+00:00"
-        },
-        {
-            "name": "popperjs/popperjs",
-            "version": "2.11.6",
-            "dist": {
-                "type": "tar",
-                "url": "https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz"
-            },
-            "type": "drupal-library",
-            "extra": {
-                "installer-name": "popperjs"
-            },
-            "license": [
-                "MIT"
-            ]
-        },
-        {
-            "name": "progress-tracker/progress-tracker",
-            "version": "2.0.7",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/NigelOToole/progress-tracker/archive/refs/tags/2.0.7.zip"
-            },
-            "type": "drupal-library",
-            "extra": {
-                "installer-name": "progress-tracker"
-            },
-            "license": [
-                "MIT"
-            ]
         },
         {
             "name": "psr/cache",
@@ -8323,21 +8332,6 @@
                 }
             ],
             "time": "2024-03-02T06:30:58+00:00"
-        },
-        {
-            "name": "signature_pad/signature_pad",
-            "version": "2.3.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/szimek/signature_pad/archive/refs/tags/v2.3.0.zip"
-            },
-            "type": "drupal-library",
-            "extra": {
-                "installer-name": "signature_pad"
-            },
-            "license": [
-                "MIT"
-            ]
         },
         {
             "name": "simplesamlphp/assert",

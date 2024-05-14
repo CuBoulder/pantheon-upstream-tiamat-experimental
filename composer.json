@@ -19,22 +19,6 @@
         {
             "type": "package",
             "package": {
-                "name": "popperjs/popperjs",
-                "version": "2.11.6",
-                "type": "drupal-library",
-                "extra": {
-                    "installer-name": "popperjs"
-                },
-                "dist": {
-                    "url": "https://registry.npmjs.org/@popperjs/core/-/core-2.11.6.tgz",
-                    "type": "tar"
-                },
-                "license": "MIT"
-            }
-        },
-        {
-            "type": "package",
-            "package": {
                 "name": "progress-tracker/progress-tracker",
                 "version": "2.0.7",
                 "type": "drupal-library",
@@ -144,12 +128,16 @@
         "patchLevel": {
             "drupal/core": "-p2"
         },
-        "installer-types": ["npm-asset"],
+        "installer-types": [
+            "npm-asset",
+            "bower-asset"
+        ],
         "installer-paths": {
             "web/core": ["type:drupal-core"],
             "web/libraries/{$name}": [
                 "type:drupal-library",
-                "type:npm-asset"
+                "type:npm-asset",
+                "type:bower-asset"
             ],
             "web/modules/contrib/{$name}": ["type:drupal-module"],
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
