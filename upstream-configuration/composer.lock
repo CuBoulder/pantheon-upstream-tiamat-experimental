@@ -885,12 +885,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CuBoulder/tiamat-theme.git",
-                "reference": "09d41fe6cb624bd7525b34b1751d1615cabf94e1"
+                "reference": "29c53eac5d434f8d0f9979c356886073d18e1fc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CuBoulder/tiamat-theme/zipball/09d41fe6cb624bd7525b34b1751d1615cabf94e1",
-                "reference": "09d41fe6cb624bd7525b34b1751d1615cabf94e1",
+                "url": "https://api.github.com/repos/CuBoulder/tiamat-theme/zipball/29c53eac5d434f8d0f9979c356886073d18e1fc3",
+                "reference": "29c53eac5d434f8d0f9979c356886073d18e1fc3",
                 "shasum": ""
             },
             "default-branch": true,
@@ -902,9 +902,9 @@
             "description": "University of Colorado Boulder base theme",
             "support": {
                 "issues": "https://github.com/CuBoulder/tiamat-theme/issues",
-                "source": "https://github.com/CuBoulder/tiamat-theme/tree/20240513"
+                "source": "https://github.com/CuBoulder/tiamat-theme/tree/main"
             },
-            "time": "2024-05-13T20:18:15+00:00"
+            "time": "2024-05-14T17:21:11+00:00"
         },
         {
             "name": "cu-boulder/boulder_profile",
@@ -912,12 +912,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CuBoulder/tiamat10-profile.git",
-                "reference": "45f9cabb96b71800142aa653d5e01ae35218174d"
+                "reference": "edfff7d20e44a13a7e553b347ea349bb22926a79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CuBoulder/tiamat10-profile/zipball/45f9cabb96b71800142aa653d5e01ae35218174d",
-                "reference": "45f9cabb96b71800142aa653d5e01ae35218174d",
+                "url": "https://api.github.com/repos/CuBoulder/tiamat10-profile/zipball/edfff7d20e44a13a7e553b347ea349bb22926a79",
+                "reference": "edfff7d20e44a13a7e553b347ea349bb22926a79",
                 "shasum": ""
             },
             "default-branch": true,
@@ -929,9 +929,9 @@
             "description": "Drupal 10 base install profile for CU Boulder",
             "support": {
                 "issues": "https://github.com/CuBoulder/tiamat10-profile/issues",
-                "source": "https://github.com/CuBoulder/tiamat10-profile/tree/20240513"
+                "source": "https://github.com/CuBoulder/tiamat10-profile/tree/main"
             },
-            "time": "2024-05-13T20:20:07+00:00"
+            "time": "2024-05-14T17:09:34+00:00"
         },
         {
             "name": "cu-boulder/express_admin",
