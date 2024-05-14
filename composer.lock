@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7f22210c50aa5869226e2126f22c50a8",
+    "content-hash": "6c1c57c9fe3bf765b24ff4766c3fe815",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -6231,96 +6231,6 @@
             "time": "2023-12-03T20:05:35+00:00"
         },
         {
-            "name": "jquery/inputmask",
-            "version": "5.0.7",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/RobinHerbots/jquery.inputmask/archive/refs/tags/5.0.7.zip"
-            },
-            "type": "drupal-library",
-            "extra": {
-                "installer-name": "jquery.inputmask"
-            },
-            "license": [
-                "MIT"
-            ]
-        },
-        {
-            "name": "jquery/intl-tel-input",
-            "version": "17.0.19",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/jackocnr/intl-tel-input/archive/refs/tags/v17.0.19.zip"
-            },
-            "type": "drupal-library",
-            "extra": {
-                "installer-name": "jquery.intl-tel-input"
-            },
-            "license": [
-                "MIT"
-            ]
-        },
-        {
-            "name": "jquery/rateit",
-            "version": "1.1.5",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/gjunge/rateit.js/archive/refs/tags/1.1.5.zip"
-            },
-            "type": "drupal-library",
-            "extra": {
-                "installer-name": "jquery.rateit"
-            },
-            "license": [
-                "MIT"
-            ]
-        },
-        {
-            "name": "jquery/select2",
-            "version": "4.0.13",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/select2/select2/archive/refs/tags/4.0.13.zip"
-            },
-            "type": "drupal-library",
-            "extra": {
-                "installer-name": "jquery.select2"
-            },
-            "license": [
-                "MIT"
-            ]
-        },
-        {
-            "name": "jquery/textcounter",
-            "version": "0.9.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/ractoon/jQuery-Text-Counter/archive/refs/tags/0.9.0.zip"
-            },
-            "type": "drupal-library",
-            "extra": {
-                "installer-name": "jquery.textcounter"
-            },
-            "license": [
-                "MIT"
-            ]
-        },
-        {
-            "name": "jquery/timepicker",
-            "version": "1.14.0",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/jonthornton/jquery-timepicker/archive/refs/tags/1.14.0.zip"
-            },
-            "type": "drupal-library",
-            "extra": {
-                "installer-name": "jquery.timepicker"
-            },
-            "license": [
-                "MIT"
-            ]
-        },
-        {
             "name": "justinrainbow/json-schema",
             "version": "v5.2.13",
             "source": {
@@ -6869,6 +6779,96 @@
             ]
         },
         {
+            "name": "npm-asset/inputmask",
+            "version": "5.0.7",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/inputmask/-/inputmask-5.0.7.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/intl-tel-input",
+            "version": "17.0.19",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/intl-tel-input/-/intl-tel-input-17.0.19.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/jquery",
+            "version": "3.7.1",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/jquery/-/jquery-3.7.1.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/jquery-text-counter",
+            "version": "0.9.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/jquery-text-counter/-/jquery-text-counter-0.9.0.tgz"
+            },
+            "require": {
+                "npm-asset/jquery": ">=1.5"
+            },
+            "type": "npm-asset"
+        },
+        {
+            "name": "npm-asset/jquery.rateit",
+            "version": "1.1.5",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/jquery.rateit/-/jquery.rateit-1.1.5.tgz"
+            },
+            "require": {
+                "npm-asset/jquery": ">=1.6"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/select2",
+            "version": "4.0.13",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/select2/-/select2-4.0.13.tgz"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
+            "name": "npm-asset/timepicker",
+            "version": "1.14.0",
+            "dist": {
+                "type": "tar",
+                "url": "https://registry.npmjs.org/timepicker/-/timepicker-1.14.0.tgz"
+            },
+            "require": {
+                "npm-asset/jquery": ">=3.5.1,<4.0.0"
+            },
+            "type": "npm-asset",
+            "license": [
+                "MIT"
+            ]
+        },
+        {
             "name": "oomphinc/composer-installers-extender",
             "version": "2.0.1",
             "source": {
@@ -7025,7 +7025,7 @@
             "dist": {
                 "type": "path",
                 "url": "upstream-configuration/locked",
-                "reference": "4a8290a9c3b40ec3fccf5cc208ff9cdb2b597f0d"
+                "reference": "3e68af9308b2f1d423a301e4659c0cde8185c305"
             },
             "require": {
                 "asm89/stack-cors": "v2.2.0",
@@ -7128,12 +7128,6 @@
                 "guzzlehttp/guzzle": "7.8.1",
                 "guzzlehttp/promises": "2.0.2",
                 "guzzlehttp/psr7": "2.6.2",
-                "jquery/inputmask": "*",
-                "jquery/intl-tel-input": "*",
-                "jquery/rateit": "*",
-                "jquery/select2": "*",
-                "jquery/textcounter": "*",
-                "jquery/timepicker": "*",
                 "justinrainbow/json-schema": "v5.2.13",
                 "laminas/laminas-escaper": "2.13.0",
                 "laminas/laminas-feed": "2.22.0",
@@ -7144,6 +7138,12 @@
                 "nikic/php-parser": "v5.0.2",
                 "northernco/ckeditor5-anchor-drupal": "^0.5.0",
                 "npm-asset/codemirror": "5.65.3",
+                "npm-asset/inputmask": "5.0.7",
+                "npm-asset/intl-tel-input": "17.0.19",
+                "npm-asset/jquery-text-counter": "0.9.0",
+                "npm-asset/jquery.rateit": "1.1.5",
+                "npm-asset/select2": "4.0.13",
+                "npm-asset/timepicker": "1.14.0",
                 "pantheon-systems/drupal-integrations": "10.0.1",
                 "pantheon-systems/upstream-management": "1.0.1",
                 "pear/archive_tar": "1.4.14",

@@ -13,102 +13,6 @@
         {
             "type": "package",
             "package": {
-                "name": "jquery/inputmask",
-                "version": "5.0.7",
-                "type": "drupal-library",
-                "extra": {
-                    "installer-name": "jquery.inputmask"
-                },
-                "dist": {
-                    "url": "https://github.com/RobinHerbots/jquery.inputmask/archive/refs/tags/5.0.7.zip",
-                    "type": "zip"
-                },
-                "license": "MIT"
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "jquery/intl-tel-input",
-                "version": "17.0.19",
-                "type": "drupal-library",
-                "extra": {
-                    "installer-name": "jquery.intl-tel-input"
-                },
-                "dist": {
-                    "url": "https://github.com/jackocnr/intl-tel-input/archive/refs/tags/v17.0.19.zip",
-                    "type": "zip"
-                },
-                "license": "MIT"
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "jquery/rateit",
-                "version": "1.1.5",
-                "type": "drupal-library",
-                "extra": {
-                    "installer-name": "jquery.rateit"
-                },
-                "dist": {
-                    "url": "https://github.com/gjunge/rateit.js/archive/refs/tags/1.1.5.zip",
-                    "type": "zip"
-                },
-                "license": "MIT"
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "jquery/select2",
-                "version": "4.0.13",
-                "type": "drupal-library",
-                "extra": {
-                    "installer-name": "jquery.select2"
-                },
-                "dist": {
-                    "url": "https://github.com/select2/select2/archive/refs/tags/4.0.13.zip",
-                    "type": "zip"
-                },
-                "license": "MIT"
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "jquery/textcounter",
-                "version": "0.9.0",
-                "type": "drupal-library",
-                "extra": {
-                    "installer-name": "jquery.textcounter"
-                },
-                "dist": {
-                    "url": "https://github.com/ractoon/jQuery-Text-Counter/archive/refs/tags/0.9.0.zip",
-                    "type": "zip"
-                },
-                "license": "MIT"
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "jquery/timepicker",
-                "version": "1.14.0",
-                "type": "drupal-library",
-                "extra": {
-                    "installer-name": "jquery.timepicker"
-                },
-                "dist": {
-                    "url": "https://github.com/jonthornton/jquery-timepicker/archive/refs/tags/1.14.0.zip",
-                    "type": "zip"
-                },
-                "license": "MIT"
-            }
-        },
-        {
-            "type": "package",
-            "package": {
                 "name": "popperjs/popperjs",
                 "version": "2.11.6",
                 "type": "drupal-library",
@@ -201,6 +105,12 @@
     ],
     "require": {
         "npm-asset/codemirror": "5.65.3",
+        "npm-asset/inputmask": "5.0.7",
+        "npm-asset/intl-tel-input": "17.0.19",
+        "npm-asset/jquery.rateit": "1.1.5",
+        "npm-asset/select2": "4.0.13",
+        "npm-asset/jquery-text-counter": "0.9.0",
+        "npm-asset/timepicker": "1.14.0",
         "composer/installers": "v2.2.0",
         "cu-boulder/boulder_base": "dev-main",
         "cu-boulder/boulder_profile": "dev-main",
@@ -263,12 +173,6 @@
         "drupal/twig_tweak": "3.3.0",
         "drupal/webform": "6.2.2",
         "drush/drush": "12.5.2",
-        "jquery/inputmask": "*",
-        "jquery/intl-tel-input": "*",
-        "jquery/rateit": "*",
-        "jquery/select2": "*",
-        "jquery/textcounter": "*",
-        "jquery/timepicker": "*",
         "northernco/ckeditor5-anchor-drupal": "^0.5.0",
         "pantheon-systems/drupal-integrations": "10.0.1",
         "pantheon-systems/upstream-management": "1.0.1",

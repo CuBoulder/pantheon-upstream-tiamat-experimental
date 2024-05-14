@@ -19,102 +19,6 @@
         {
             "type": "package",
             "package": {
-                "name": "jquery/inputmask",
-                "version": "5.0.7",
-                "type": "drupal-library",
-                "extra": {
-                    "installer-name": "jquery.inputmask"
-                },
-                "dist": {
-                    "url": "https://github.com/RobinHerbots/jquery.inputmask/archive/refs/tags/5.0.7.zip",
-                    "type": "zip"
-                },
-                "license": "MIT"
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "jquery/intl-tel-input",
-                "version": "17.0.19",
-                "type": "drupal-library",
-                "extra": {
-                    "installer-name": "jquery.intl-tel-input"
-                },
-                "dist": {
-                    "url": "https://github.com/jackocnr/intl-tel-input/archive/refs/tags/v17.0.19.zip",
-                    "type": "zip"
-                },
-                "license": "MIT"
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "jquery/rateit",
-                "version": "1.1.5",
-                "type": "drupal-library",
-                "extra": {
-                    "installer-name": "jquery.rateit"
-                },
-                "dist": {
-                    "url": "https://github.com/gjunge/rateit.js/archive/refs/tags/1.1.5.zip",
-                    "type": "zip"
-                },
-                "license": "MIT"
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "jquery/select2",
-                "version": "4.0.13",
-                "type": "drupal-library",
-                "extra": {
-                    "installer-name": "jquery.select2"
-                },
-                "dist": {
-                    "url": "https://github.com/select2/select2/archive/refs/tags/4.0.13.zip",
-                    "type": "zip"
-                },
-                "license": "MIT"
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "jquery/textcounter",
-                "version": "0.9.0",
-                "type": "drupal-library",
-                "extra": {
-                    "installer-name": "jquery.textcounter"
-                },
-                "dist": {
-                    "url": "https://github.com/ractoon/jQuery-Text-Counter/archive/refs/tags/0.9.0.zip",
-                    "type": "zip"
-                },
-                "license": "MIT"
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "jquery/timepicker",
-                "version": "1.14.0",
-                "type": "drupal-library",
-                "extra": {
-                    "installer-name": "jquery.timepicker"
-                },
-                "dist": {
-                    "url": "https://github.com/jonthornton/jquery-timepicker/archive/refs/tags/1.14.0.zip",
-                    "type": "zip"
-                },
-                "license": "MIT"
-            }
-        },
-        {
-            "type": "package",
-            "package": {
                 "name": "popperjs/popperjs",
                 "version": "2.11.6",
                 "type": "drupal-library",
@@ -209,7 +113,6 @@
         "composer/installers": "^2.1",
         "cweagans/composer-patches": "^1.7",
         "drush/drush": "^12",
-        "npm-asset/codemirror": "5.65.3",
         "oomphinc/composer-installers-extender": "^2.0",
         "pantheon-upstreams/upstream-configuration": "dev-master"
     },
